@@ -1,0 +1,25 @@
+body {
+	
+}
+.container {
+	width: 90%
+	background-color: yellow;
+	margin: 0 auto;
+}
+header {
+	background-color: blue;
+}
+nav {
+	background-color: pink;
+}
+main {
+	background-color: red;
+	float: left;
+}
+aside {
+	background-color: grey;
+}
+footer {
+	background-color: green;
+	clear: both;
+}

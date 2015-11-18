@@ -1,25 +1,50 @@
-body {
-	
+html, body, div, header, nav, article, aside, footer, p, h2 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+body h1 {
+	text-align: center;
+}
+h2 {
+	padding: 20px;
 }
 .container {
-	width: 90%
-	background-color: yellow;
+	background-color: #01B2AC;
 	margin: 0 auto;
+	padding: 0px 0px 60px;
+	width: 90%;
+}
+.innercontain {
+	margin: 0 auto;
+	width: 90%;
+}
+#contname {
+	margin-left: 5%;
+}
+header, nav, footer {
+	height: 70px;
 }
 header {
-	background-color: blue;
+	background-color: #457C7A;
 }
 nav {
-	background-color: pink;
+	background-color: #00A1BA;
 }
-main {
-	background-color: red;
+article {
+	background-color: #009F93;
+	width: 70%;
+	height: 400px;
 	float: left;
 }
 aside {
-	background-color: grey;
+	background-color: #46A3A3;
+	width: 30%;
+	height: 400px;
+	float: left;
 }
 footer {
-	background-color: green;
+	background-color: #004943;
 	clear: both;
 }
